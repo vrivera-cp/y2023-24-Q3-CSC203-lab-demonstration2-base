@@ -4,9 +4,9 @@ public class Cat {
     private final String name;
     private final int hoursUntilFed;
 
-    public Cat(String name, int age) {
+    public Cat(String name, int hoursUntilFed) {
         this.name = name;
-        this.hoursUntilFed = age;
+        this.hoursUntilFed = hoursUntilFed;
     }
 
     public boolean equals(Object object) {

@@ -4,7 +4,7 @@ public class Bird {
     private final String color;
     private final double songPitch;
 
-    public Bird(String color, int songPitch) {
+    public Bird(String color, double songPitch) {
         this.color = color;
         this.songPitch = songPitch;
     }
